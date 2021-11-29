@@ -1,8 +1,10 @@
 <article class="post">
-  <div class="title">
-    <a href="/post{{id}}" target="_blank">{{title}}</a>
-    <div>{{content}}</div>
+  <div class="post-title">
+    <div>{{title}}</div>
   </div>
+    <div class="content">
+      {{content}}
+    </div>
   <div class="meta">
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </div>
